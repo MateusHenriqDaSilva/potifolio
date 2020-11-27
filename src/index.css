@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+body {
+    background-image: url('assets/projects_images/image.jpg');
+    border: 0;
+    padding: 0;
+    color: black ;
+}
+
+a {
+    text-decoration: none;
+    color: #354548;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.app__container {
+    padding-top: 50px;
+}
+.app_row{
+    height: 90vh;
+}
+
+.app__main-content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+}
+
+/* sidebar */
+.sidebar {
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+ 
+.sidebar__avatar {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 150px;
+}
+
+.sidebar__icon {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+.icone__reduzido{ 
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar__name {
+    position: relative;
+    font-family: 'Kaushan Script';
+    margin: 10px 0 0 0;
+    font-size: 1.7rem;
+}
+
+.sidebar__name>span {
+    color: red;
+}
+
+.sidebar__item {
+    display: flex;
+    padding-top: 6px;
+    justify-content: center;
+    margin-bottom: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.sidebar__title {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar__contact {
+    background-color: white;
+    padding: 0px 0;
+    margin: 20px -15px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.sidebar__email {
+    background-image: linear-gradient(to right bottom, black, rgb(219, 132, 132));
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 3s linear;
+    margin: 0 25px;
+}
+
+.sidebar__email:hover {
+    transform: scale(1.2);
+    background-color: white;
+}
+
+.sidebar__github {
+    text-decoration: none;
+    margin: 0;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebar__resume {
+    margin: 0;
+    background-color:  rgba(216, 210, 210, 0.575);;
+    border-radius: 0;
+    color: black;
+}
+
+.sidebar__github:hover,
+.sidebar__resume:hover {
+    background-color: rgb(219, 132, 132);
+    color: white;
+}
+
+/* navbar */
+
+.navbar{}
+.navbar__active{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    border-bottom: 4px solid red;
+}
+.navbar__items{
+    display: flex;
+}
+.navbar__item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__item:hover {
+    background: -webkit-linear-gradient(black,red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* sobre */
+.sobre{
+    padding:25px;
+    margin: -15px;
+    background-color: rgb(223, 223, 223);
+}
+.sobre__intro {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.sobre_container {
+    background-color: #dfdbdb;
+    padding: 30px 20px;   
+}
+
+.sobre_cabecalho {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+/* Skiil-card */
+.skill-card {
+    background-color: rgb(255, 241, 195);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.skill-card__icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.skill-card__body {
+    margin-left: 15px;
+}
+
+
+.skill-card__content {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* resumo  */
+
+.resumo{
+    padding-top: 20px;
+}
+
+.resumo-card__cabecalho{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #354538;
+}
+
+.resumo-card__body{
+    margin-top: 10px;
+}
+
+
+.resumo-card__title{
+    font-weight: 700;
+}
+
+.resumo-card_name{
+    font-size: 16px;
+}
+
+.resumo-card__details {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+/* bar */
+.bar {
+    width: 90%;
+    background-color: rgb(216, 216, 216);
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.bar__conteudo {
+    background-image: linear-gradient(90deg, rgb(255, 160, 160),rgb(88, 4, 4));
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.bar__icon {
+    width: 15px;
+    height: 15px;
+}
+
+/* projetos */
+.container_projetos {
+    height: 70vh;
+    padding-top: 30px;
+    overflow-y: auto; 
+}
+
+.projetoCard__content{
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+}
+
+.projetoCard__image{
+    margin-left: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    border: 1px solid red;
+    transition: transform 0.3s linear;
+}
+
+.projetoCard__image:hover{
+    transform: scale(1.05);
+}
+.projetoCard__icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.projetoCard__title {
+    margin-top: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.projetos__navbar {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.projetos__navbar>div{
+    margin: 0 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.projetos__navbar>div:hover {
+    color: red
+}
+
+.projeto__navbar-active{
+    color: red
+}
+
+@media(max-width:991px) {
+    .app__main-content {
+        margin-right: 10px;
+        margin-left: 10px;
+   }
+
+   .navbar__active {
+       font-size: 1.5rem;;
+   }
+
+   .navbar__item {
+       font-size: 1rem;
+   }
+}
